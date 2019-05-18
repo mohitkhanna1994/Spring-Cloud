@@ -1,0 +1,10 @@
+zuul:
+  routes:
+     student-service:
+        path: /api/student/**
+        url: http://localhost:8005/
+
+
+     teacher-service:
+        path: /api/teacher/**
+        url: http://localhost:8006/
